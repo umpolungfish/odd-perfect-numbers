@@ -1,3 +1,5 @@
+![EandT](EandT.png)
+
 # Odd Perfect Numbers — Euler's Theorem and Touchard's Congruence
 
 Machine-verified proofs in Lean 4 / Mathlib4.
