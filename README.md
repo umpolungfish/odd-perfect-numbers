@@ -86,3 +86,7 @@ Toolchain: `leanprover/lean4:v4.30.0-rc2`
 **Author:** umpolungfish
 
 Released to the public domain under the [UNLICENSE](https://unlicense.org).
+
+## Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19909057.svg)](https://doi.org/10.5281/zenodo.19909057)
