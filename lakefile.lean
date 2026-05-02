@@ -5,6 +5,7 @@ package "OddPerfectNumbers" where
   name := "OddPerfectNumbers"
 
 require "leanprover-community" / "mathlib" from
-  git "https://github.com/leanprover-community/mathlib4" @ "676b870c7dd6f238df74091c8353c766e3a97aef"
+  git "../mathlib4_PROOFS/mathlib4"
 
 lean_lib OddPerfectNumbers
+lean_lib Challenge

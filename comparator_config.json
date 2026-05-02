@@ -1,0 +1,10 @@
+{
+    "challenge_module": "Challenge",
+    "solution_module": "OddPerfectNumbers",
+    "theorem_names": [
+        "Nat.ArithmeticFunction.OddPerfect.euler_opn_form",
+        "Nat.ArithmeticFunction.OddPerfect.touchard_congruence"
+    ],
+    "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+    "enable_nanoda": false
+}

@@ -30,10 +30,9 @@ This file proves two classical results about odd perfect numbers (OPNs):
 - `sigma_mul_of_coprime`, `opn_product_constraint`, `sigma_prime_pow_ratio`
 - `v2_sigma_prime_power`, `v2_sigma_square_factor`
 
-## Acknowledgment
+## LLM Assist
 
-`euler_opn_form` written by true_agentic_agent.py (Claude).
-Touchard congruence formalized with LLM assistance (Claude, xAI Grok).
+- This proof's development was supplemented & made possible by the utilization of LLM 
 
 ## References
 
