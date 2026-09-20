@@ -278,7 +278,7 @@ The abstract said: "constraints on any hypothetical OPN." At the end, that is al
 
 ---
 
-**Structural type:** $\langle D_\odot;\ T_\bowtie;\ R_\leftrightarrow;\ P_{\pm};\ F_\hbar;\ K_\text{slow};\ G_\aleph;\ \Gamma_\text{seq};\ \Phi_c;\ H_2;\ 1{:}1;\ \Omega_{\mathbb{Z}_2} \rangle$
+**Structural type:** $\langle D_\odot;\ T_\bowtie;\ R_\leftrightarrow;\ P_{\pm};\ F_\hbar;\ K_\text{slow};\ G_\aleph;\ \Gamma_\text{seq};\ \⊙;\ H_2;\ 1{:}1;\ \Omega_{\mathbb{Z}_2} \rangle$
 
 ---
 
