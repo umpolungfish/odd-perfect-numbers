@@ -1,0 +1,3 @@
+I reconnect odd perfect numbers to the current Lean toolchain
+
+I update the factorization lemma names and pin the project to its available Mathlib and Lean versions.

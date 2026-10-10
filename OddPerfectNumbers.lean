@@ -483,7 +483,7 @@ theorem euler_opn_form (n : ℕ) (h_odd : ¬ 2 ∣ n) (h_perf : Perfect n) :
   have hn_fact : n = p ^ a_p * ∏ q ∈ ((Nat.factorization n).support.erase p),
       q ^ ((Nat.factorization n) q) := by
     calc n = ∏ r ∈ (Nat.factorization n).support, r ^ ((Nat.factorization n) r) :=
-          (Nat.prod_factorization_pow_eq_self hn_pos).symm
+          (Nat.factorization_prod_pow_eq_self hn_pos).symm
       _ = p ^ a_p * ∏ q ∈ ((Nat.factorization n).support.erase p),
           q ^ ((Nat.factorization n) q) := by
         rw [← Finset.mul_prod_erase _ _ hp_mem]
@@ -499,7 +499,7 @@ theorem euler_opn_form (n : ℕ) (h_odd : ¬ 2 ∣ n) (h_perf : Perfect n) :
   have hn_eq : n = p ^ a_p * m ^ 2 := by rw [hm_sq]; exact hn_fact
   have hp_not_dvd_m : ¬ p ∣ m := by
     intro hp_dvd
-    rcases (hp_prime.prime.dvd_finsetProd_iff _).mp hp_dvd with ⟨q, hq, hp_dvd_qpow⟩
+    rcases (hp_prime.prime.dvd_finset_prod_iff _).mp hp_dvd with ⟨q, hq, hp_dvd_qpow⟩
     have hp_dvd_q := hp_prime.dvd_of_dvd_pow hp_dvd_qpow
     have hq_prime := prime_of_mem_factorization_support (Finset.mem_of_mem_erase hq)
     have : p = q := (hq_prime.eq_one_or_self_of_dvd p hp_dvd_q).resolve_left hp_prime.one_lt.ne'
